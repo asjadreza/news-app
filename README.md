@@ -68,3 +68,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# API Integration
+This project utilizes newsapi.org to retrieve the most recent global news and present it to users. Users also have the option to select news from various categories such as Apple, Tesla, Bitcoin, and more. The app essentially fetches diverse queries from the provided API and displays the results to the user.
+
+## Create an account on newsapi.org
+Kindly register an account on newsapi.org to obtain an API key. Once you have the API key, copy and paste it into the `News()` function within the News component.
